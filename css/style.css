@@ -1,0 +1,235 @@
+/*Style Css*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700,800,900&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+  color: white;
+  padding: 0 30px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.black-navbar {
+  background: black;
+  padding: 10px 0;
+}
+
+.feature {
+  background: #333333;
+  color: white;
+}
+
+.feature .description {
+  font-size: 12px;
+}
+
+.feature .description i {
+  font-size: 25px;
+}
+
+.feature .title h3 {
+  font-size: x-large;
+}
+
+.feature .title p {
+  font-size: small;
+  font-weight: 200;
+}
+
+.card {
+  margin: 15px;
+}
+
+.card .card-body {
+  padding: 0.5rem;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.slick-prev {
+  font-size: 0;
+  position: absolute;
+  bottom: 20px;
+  color: #d5122f;
+  border: 0;
+  background: none;
+  z-index: 1;
+  width: auto;
+  height: auto;
+}
+
+.slick-next {
+  font-size: 0;
+  position: absolute;
+  bottom: 20px;
+  color: #d5122f;
+  border: 0;
+  background: none;
+  z-index: 1;
+  width: auto;
+  height: auto;
+  right: -15px;
+}
+
+.slick-prev {
+  left: -15px;
+}
+
+.slick-prev:hover:before {
+  color: black;
+  opacity: 1;
+}
+
+.slick-next:hover:before {
+  color: black;
+  opacity: 1;
+}
+
+.related h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.related .related-videos .slick-track {
+  padding: 12px;
+}
+
+.related .related-videos .card {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: 0;
+  margin: 10px 5px 10px 4px;
+  border-radius: 0;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.17);
+}
+
+.related .related-videos .card .card-body {
+  padding: 0.5rem;
+}
+
+.related .related-videos .card .card-body .card-text {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.related .related-videos .card .card-body .date {
+  color: gray;
+  font-size: 70%;
+}
+
+.related .related-videos .card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: black;
+  color: white;
+  z-index: 1;
+}
+
+.related .related-videos .card:hover .card-text {
+  color: white;
+}
+
+.related .related-videos .card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.icon {
+  font-size: 15px;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-stack .fa-play {
+  color: black;
+}
+
+footer {
+  color: white;
+  background: black;
+}
+
+footer .low-menu {
+  font-size: 12px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+footer small {
+  font-size: 70%;
+  font-weight: 100;
+}
+
+footer .social {
+  font-size: 25px;
+  text-indent: 10px;
+}
+
+footer .social a {
+  color: white;
+}
+
+footer .social a:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
